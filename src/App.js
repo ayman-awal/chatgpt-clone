@@ -1,10 +1,15 @@
 
 function App() {
   return (
-    <div className="App flex">
-      <div className="sidebar flex justify-between flex-column">
-          <div>vncvbn</div>
-          <div>Ayman Awal</div>
+    <div className="App">
+      <div className="sidebar flex flex-column justify-between">
+          <button>New chat +</button>
+          <ul className="history">
+            <li>sss</li>
+          </ul>
+          <nav>
+            <p>Made by Ayman</p>
+          </nav>
       </div>
 
       <div className="main">
